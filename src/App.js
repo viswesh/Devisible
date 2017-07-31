@@ -150,7 +150,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           {this.state.gameMode && (<span className="timer">{this.state.timer}</span>)}
           <h2>Welcome {this.state.user.username}</h2>
-          <h4> Objective: Select numbers evenly devisible by {this.state.game.numberQ} </h4>
+          <h4> Objective: Select numbers evenly Divisible by {this.state.game.numberQ} </h4>
           {/* {this.state.gameMode && (<button className="checkResults" onClick={this.checkResults}>Submit</button>)} */}
         </div>
         <div className="App-intro">
